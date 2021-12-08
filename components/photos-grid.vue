@@ -20,7 +20,7 @@ export default {
     };
   },
   created() {
-    this.imageSize = window.innerWidth < 720 ? 350 : 600;
+    // this.imageSize = window.innerWidth < 720 ? 350 : 600;
   },
   mounted() {
     this.interval = setInterval(
