@@ -13,14 +13,24 @@ export default {
       title: 'Random Photos',
       meta: [
         {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Random Photos'
+        },
+        {
           hid: 'description',
           name: 'description',
           content: 'A museum of random photos in a masonry style'
         },
         {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'A museum of random photos in a masonry style'
+        },
+        {
           hid: 'og:image',
           name: 'og:image',
-          content: '/screenshot.PNG'
+          content: '/screenshot.jpg'
         }
       ]
     }
