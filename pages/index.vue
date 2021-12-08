@@ -11,7 +11,18 @@ export default {
   head() {
     return {
       title: 'Random Photos',
-      description: 'A museum of random photos in a masonry style'
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'A museum of random photos in a masonry style'
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: '/screenshot.PNG'
+        }
+      ]
     }
   }
 };
