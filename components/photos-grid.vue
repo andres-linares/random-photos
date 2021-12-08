@@ -67,11 +67,17 @@ img {
   background: linear-gradient(45deg, #ffffff1a, #dddddd1a);
   opacity: 0;
   animation: appear 700ms ease-out 1s forwards;
+  transition: transform 250ms ease-out;
 }
 
 li {
   position: relative;
-  box-shadow: 1px 1px 3px #ffffff46;
+  box-shadow: 1px 1px 3px #ffffff36;
+  overflow: hidden;
+}
+
+li:hover img {
+  transform: scale(1.25) rotate(8deg);
 }
 
 li::after {
